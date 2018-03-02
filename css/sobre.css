@@ -1,0 +1,28 @@
+body {
+    color: #333333;
+    background-color: #FFFFFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+h1 {
+    background-image: url("../img/sobre-background.jpg");
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+figure {
+    background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+figcaption {
+    /*
+     * pode-se usar dessa conotação, mas ela não é compativel com todos os outros navegadores, então
+     * é melhor usar a conotação hexadecimal '#FFFFFF' que tem suporte universal nos navegadores
+     * color: rgb(255, 200, 0);
+     */
+    font-style: italic;
+}
